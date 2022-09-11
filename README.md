@@ -2,12 +2,12 @@
 ## For academic purposes only !
 
 ## Discalimer 
-This tool is only for testing and academic purposes and can only be used where strict consent has been given. 
+**This tool is only for testing and academic purposes and can only be used where strict consent has been given. 
 Do not use it for illegal purposes! It is the end user’s responsibility to obey all applicable local, state and federal laws. 
-Developer assume no liability and is not responsible for any misuse or damage caused by this tool and software in general.
+Developer assume no liability and is not responsible for any misuse or damage caused by this tool and software in general.**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63206167/189525532-e38d9736-dda7-4e6b-ae9f-fc90d229a1dd.gif" width="200">
+<img src="https://user-images.githubusercontent.com/63206167/189525532-e38d9736-dda7-4e6b-ae9f-fc90d229a1dd.gif" width="300">
 </p>
 
 ## Information
