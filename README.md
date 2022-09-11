@@ -25,21 +25,22 @@ Developer assume no liability and is not responsible for any misuse or damage ca
 - This repo also contains a decryptor for the given path.
 
 ## Run 
-'''
+```
 Note disclaimer above..
 
 pip install cryptography
 python3 havoc.py 
-'''
+```
 
 ## Revert
-'''
+```
 python3 restore.py
-'''
+```
 
 ## Screenshots
 
 ![1](https://user-images.githubusercontent.com/63206167/189525745-3aac7a4b-04c7-4db3-b286-3c5c323862ce.png)
 ![2](https://user-images.githubusercontent.com/63206167/189525750-1dfbf719-3da2-41ec-b14f-b883a5baaeb4.png)
+![3](https://user-images.githubusercontent.com/63206167/189534853-000b6eb0-9344-41ad-b810-7dece77f65f2.png)
 
 
