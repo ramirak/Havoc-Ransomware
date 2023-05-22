@@ -2,7 +2,7 @@ import struct,glob,os
 import conf
 import crypt
 
-injected_s = 3556020
+
 
 def restore_all():    
     for filename in glob.iglob(conf.test_folder + '**', recursive=True):
@@ -16,7 +16,7 @@ def restore_all():
 
 def eject(filename):
     with open(filename,'rb') as file:
-        file.seek(injected_s)
+        file.seek(conf.injected_s)
         s_len = struct.unpack('i',file.read(4))[0]
         orig_name = file.read(s_len)
         orig_file = file.read()
