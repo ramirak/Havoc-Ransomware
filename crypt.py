@@ -1,16 +1,16 @@
-import base64
+# import base64
 import hashlib
 import os
 from cryptography.fernet import Fernet
 
-key = Fernet.generate_key()
+
 
 if(not os.path.exists('key.hkey')):
     with open('key.hkey', 'wb') as filekey:
+        key = Fernet.generate_key()
         filekey.write(key)
 else:
-    with open('key.hkey', 'rb') as filekey:
-        key = filekey.read()
+    key = open('key.hkey', 'rb').read()
 
 def encrypt(raw):
     fernet = Fernet(key)
